@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bro'Style</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-left">
+      <img src="img/logo.png" alt="Logo" class="logo" />
+      <h1 class="titulo-neon">Bro'Style</h1>
+    </div>
+    <div class="header-right">
+      <p>Contáctanos: <a href="https://wa.me/50586682207">+505 8668 2207</a></p>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content side-by-side">
+        <img src="img/portada12.png" alt="Imagen principal" class="hero-img" />
+        <div class="hero-text">
+          <h2>Bienvenido a Bro'Style</h2>
+          <center><p>Tu estilo y tu esencia.</p></center>
+          <button id="verProductos">Ver Productos</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="productos" class="seccion-productos oculto">
+      <h2>Nuestros Productos</h2>
+      <div class="categoria">
+        <h3>Camisas</h3>
+        <!-- Productos -->
+        <div class="productos-grid">
+
+            <div class="producto-card">
+              <img src="img/camisa1.jpeg" alt="Camisa Urbana">
+              <h4>Camisa Urbana</h4>
+              <p>C$ 350</p>
+              <a href="#" onclick="contactarWhatsApp('Camisa Urbana')">Comprar</a>
+            </div>
+        
+            <div class="producto-card">
+              <img src="img/camisa2.jpeg" alt="Camisa Neón">
+              <h4>Camisa Neón</h4>
+              <p>C$ 400</p>
+              <a href="#" onclick="contactarWhatsApp('Camisa Neón')">Comprar</a>
+            </div>
+        
+            <!-- Agrega más productos aquí -->
+        
+          </div>
+      </div>
+      <div class="categoria">
+        <h3>Zapatos</h3>
+        <!-- Productos -->
+      </div>
+      <div class="categoria">
+        <h3>Gorras</h3>
+        <!-- Productos -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Bro'Style. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    const btn = document.getElementById("verProductos");
+    const seccion = document.getElementById("productos");
+
+    btn.addEventListener("click", () => {
+      seccion.classList.toggle("oculto");
+      seccion.scrollIntoView({ behavior: "smooth" });
+    });
+  </script>
+  <!-- Script para el contacto por WhatsApp -->
+<script>
+    function contactarWhatsApp(producto) {
+      const numero = '50578722038'; // <-- Cambia este por el número de tu cliente o tienda
+      const mensaje = encodeURIComponent(`Hola, me interesa el producto: ${producto} que vi en el catálogo Bro'Style 🛍️`);
+      window.open(`https://wa.me/${numero}?text=${mensaje}`, '_blank');
+    }
+  </script>
+</body>
+</html>
