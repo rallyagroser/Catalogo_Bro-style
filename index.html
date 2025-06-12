@@ -23,46 +23,24 @@
       <div class="hero-content side-by-side">
         <img src="img/portada12.png" alt="Imagen principal" class="hero-img" />
         <div class="hero-text">
-          <h2>Bienvenido a Bro'Style</h2>
+          <h1>Bro'Style</h1>
           <center><p>Tu estilo y tu esencia.</p></center>
+          <center><p>Un buen gusto no tiene precio</p></center>
           <button id="verProductos">Ver Productos</button>
         </div>
       </div>
     </section>
 
     <section id="productos" class="seccion-productos oculto">
-      <h2>Nuestros Productos</h2>
-      <div class="categoria">
-        <h3>Camisas</h3>
-        <!-- Productos -->
-        <div class="productos-grid">
+       <h1>Bro'Style</h1>
 
-            <div class="producto-card">
-              <img src="img/camisa1.jpeg" alt="Camisa Urbana">
-              <h4>Camisa Urbana</h4>
-              <p>C$ 350</p>
-              <a href="#" onclick="contactarWhatsApp('Camisa Urbana')">Comprar</a>
-            </div>
-        
-            <div class="producto-card">
-              <img src="img/camisa2.jpeg" alt="Camisa Neón">
-              <h4>Camisa Neón</h4>
-              <p>C$ 400</p>
-              <a href="#" onclick="contactarWhatsApp('Camisa Neón')">Comprar</a>
-            </div>
-        
-            <!-- Agrega más productos aquí -->
-        
-          </div>
-      </div>
-      <div class="categoria">
-        <h3>Zapatos</h3>
-        <!-- Productos -->
-      </div>
-      <div class="categoria">
-        <h3>Gorras</h3>
-        <!-- Productos -->
-      </div>
+  <div class="categories-container" role="list" aria-label="Categorías de productos">
+    <!-- Categories inserted by JS -->
+  </div>
+
+  <div class="products-container" role="list" aria-live="polite" aria-label="Productos en categoría seleccionada">
+    <!-- Products inserted by JS -->
+  </div>
     </section>
   </main>
 
@@ -87,5 +65,6 @@
       window.open(`https://wa.me/${numero}?text=${mensaje}`, '_blank');
     }
   </script>
+  <script src="javascript.js"></script>
 </body>
 </html>
