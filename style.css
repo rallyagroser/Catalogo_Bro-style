@@ -178,6 +178,9 @@ body {
   header {
     flex-direction: column;
     text-align: center;
+    padding: 0.5rem 1rem;
+    gap: 0.5rem;
+
   }
 
   .header-left,
@@ -343,9 +346,10 @@ body {
       justify-content: center;
       gap: 8px;
     }
+
     .color-dot {
-      width: 18px;
-      height: 18px;
+      width: 14px;
+      height: 14px;
       border-radius: 50%;
       border: 2px solid #ccc;
       cursor: default;
@@ -406,3 +410,22 @@ body {
         min-height: 180px;
       }
     }
+
+    .product-card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0,255,255,0.4);
+}

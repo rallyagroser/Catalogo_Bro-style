@@ -137,6 +137,7 @@ function showProducts(category) {
         const prodImg = document.createElement('img');
         prodImg.classList.add('product-image');
         if (prod.img) {
+          prodImg.loading = 'lazy';
           prodImg.src = `img/${prod.img}`;
           prodImg.alt = prod.name;
         } else {
@@ -197,3 +198,6 @@ Object.keys(data).forEach(cat => {
   const card = createCategoryCard(cat);
   categoriesContainer.appendChild(card);
 });
+// Después de inicializar categorías, agregá:
+activateCategory('Ropa Deportiva', document.querySelector('.category-card'));
+
