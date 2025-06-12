@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #9e00ff;
+    background-color: #111;
     color: #fff;
   }
   
@@ -65,9 +65,11 @@ body {
     text-shadow: 0 0 10px #0ff;
   }
   
-  .hero-text p {
+  .hero-text h2 {
     font-size: 1rem;
     margin: 1rem 0;
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff;
   }
   
   .hero-text button {
@@ -162,7 +164,14 @@ body {
     height: 35px;
   }
   
-  
+  .loading {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
 
   /* --- Responsive para pantallas pequeñas (móviles) --- */
 @media (max-width: 768px) {
@@ -217,7 +226,7 @@ body {
       font-size: 2.4rem;
     }
 
-    /* Container for categories */
+    /* Container por categorias... */
     .categories-container {
       display: flex;
       flex-wrap: wrap;
@@ -228,45 +237,40 @@ body {
     }
 
     .category-card {
-      background: white;
+      background: #111;
       border-radius: 12px;
-      box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+      box-shadow: 0 0 10px #0ff5;
       width: 160px;
       height: 120px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-weight: 600;
+      font-weight: bold;
       cursor: pointer;
-      color: #444;
+      color: #0ff;
       font-size: 1.1rem;
       text-transform: uppercase;
       user-select: none;
-      transition: 
-        transform 0.3s ease,
-        box-shadow 0.3s ease,
-        background-color 0.3s ease,
-        color 0.3s ease;
-      position: relative;
+      transition: all 0.3s ease;
+      border: 2px solid #0ff;
+      text-align: center;
     }
 
     .category-card:hover {
-      background-color: #e0e7ff; /* Light indigo */
-      color: #3b82f6; /* Indigo blue */
-      transform: scale(1.05);
-      box-shadow: 0 12px 24px rgba(59,130,246,0.25);
-      z-index: 2;
+      background-color: #00f0ff;
+      color: #000;
+      transform: scale(1.08);
+      box-shadow: 0 0 25px #0ff;
+      border-color: #fff;
     }
 
     /* Enlarged active category */
     .category-card.active {
-      width: 220px;
-      height: 160px;
+      background-color: #0ff;
+      color: #111;
       transform: scale(1.1);
-      background-color: #3b82f6;
-      color: white;
-      box-shadow: 0 16px 30px rgba(59,130,246,0.5);
-      z-index: 3;
+      border: 2px solid #fff;
+      box-shadow: 0 0 35px #00ffff, 0 0 15px #00ffff;
     }
 
     /* Container for products */
