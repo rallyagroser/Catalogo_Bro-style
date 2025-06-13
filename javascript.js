@@ -50,8 +50,8 @@ const data = {
     //{ name: "Shorts de Playa", desc: "Ideal para la playa y piscina.", img: "short.png" },
     { name: "Shorts Veraneros Impermeables Polo", desc: "Para tus actividades deportivas.", colors: [" #a1abb6 ", " #a55c24"], desc: "Precio: C$320", img: "short3.png" },
     { name: "Shorts Veraneros Impermeables Jhonny Cotton", desc: "Perfecto para el verano.", colors: ["rgb(255, 255, 255) ", "rgb(0, 0, 0) "], desc: "Precio: C$450", img: "short4.png" },
-    { name: "Shorts Estampado", desc: "Ideales para una salidita", desc: "Precio: C$280", img: "Shortpablo.png" },
-    { name: "Shorts Estampado", desc: "Ideales para una salidita", desc: "Precio: C$280", img: "Shortcancer.png"},
+    { name: "Shorts Estampado", desc: "Ideales para una salidita", desc: "Precio: C$280", img: "pablo.png" },
+    { name: "Shorts Estampado", desc: "Ideales para una salidita", desc: "Precio: C$280", img: "cancer.png"},
     //{ name: "Shortds Formales Cargo", desc: "Para tu cita", colors: ["#000000", "#0a5b98"], img: "Shorts"}
   ],
   "Accesorios":[
