@@ -301,6 +301,8 @@ body {
       cursor: default;
       transition: box-shadow 0.3s ease;
       position: relative;
+      min-height: 360px; /* O el valor que se ajuste mejor a tu diseño */
+
     }
 
     .product-card:hover {
@@ -308,22 +310,17 @@ body {
     }
 
     .product-image {
-      background: #ddd;
-      border-radius: 8px;
       width: 100%;
-      height: 120px;
+      height: 400px;
+      object-fit: contain;
+      border-radius: 8px;
+      background-color: #fff;
+      display: block;
       margin-bottom: 12px;
-      object-fit: cover;
-      /* placeholder icon style */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 3rem;
-      color: #bbb;
-      font-weight: 700;
-      font-family: monospace;
-      user-select: none;
+      padding: 10px;
+      box-sizing: border-box;
     }
+
 
     .product-name {
       font-weight: 600;

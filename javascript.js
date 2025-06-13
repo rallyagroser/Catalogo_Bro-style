@@ -1,61 +1,65 @@
 // Data for categories and products with colores disponibles
 const data = {
   "Ropa Deportiva": [
-    { name: "Traje Deportivo Barca", desc: "Mes que un Club", img: "barca.png" },
-    { name: "Camiseta Brazil", desc: "Un poco de zamba en tu estilo.", img: "brasil.png" },
-    { name: "Traje Deportivo Real Madrid", desc: "Hala Madrid", img: "real-madrid.png" }
+    { name: "Traje Deportivo Barca Infantil", desc: "Mes que un Club", desc: "Precio: C$280", img: "barca.png" },
+    { name: "Camiseta Brazil", desc: "Un poco de zamba en tu estilo.", desc: "Precio: C$380", img: "brasil.png" },
+    { name: "Traje Deportivo Real Madrid Infantil", desc: "Hala Madrid", desc: "Precio: C$280", img: "real-madrid.png" }
   ],
   "Gorras": [
   { name: "Gorra Snapback", desc: "Gorra ajustable con diseño moderno.", img: "gorra.png"},
   ],
   "Pantalones": [
-    { name: "Pantalón Cargo Mujer", desc: "Con múltiples bolsillos útiles.", img: "cargo.png" },
-    { name: "Pantalón Vestir Hombre", desc: "Casual y elegante para el día a día.", img: "pantalon-vestir.png" },
-    { name: "Pantalon Jeans", desc: "Ideal para el dia a dia", img: "pantalon-vestir2.png"},
-    { name: "Pantalón Vestir Hombre", desc: "Cómodo para actividades al aire libre.", img: "pantalon-vestir3.png" },
-    { name: "Pantalón Jeans", desc: "Para actividades diarias.", img: "pantalon-vestir4.png" }
+    { name: "Pantalón Cargo Mujer", desc: "Con múltiples bolsillos útiles.", desc: "C$700", img: "cargo.png" },
+    { name: "Pantalón Vestir Hombre", desc: "Casual y elegante para el día a día.", desc: "C$700", img: "pantalon-vestir.png" },
+    { name: "Pantalon Jeans", desc: "Ideal para el dia a dia", desc: "C$700", img: "pantalon-vestir2.png"},
+    { name: "Pantalón Vestir Hombre", desc: "Cómodo para actividades al aire libre.", desc: "C$550", img: "pantalon-vestir3.png" },
+    { name: "Pantalón Jeans", desc: "Para actividades diarias.", desc: "C$550", img: "pantalon-vestir4.png" }
   ],
   "Camisas": [
-    { name: "Camisas Casuales", desc: "Perfecta para uso diario y trabajo.", colors: ["ffffff", "#010000", "#cd0e0e", "#0104c6"], img: "camisas-sports.png" },
-    { name: "Camisa Formal", desc: "Ideal para ocasiones formales.", colors: ["ffffff", "#010000", "#cd0e0e", "#0104c6", "#e276ae"], img: "camisas-formales.png" },
-    { name: "Camisa de Manga Corta Animada", desc: "Ligera y cómoda para el verano.", img: "animada.png" },
-    { name: "Camisa de Manga Corta Animada", desc: "Ligera y cómoda para el verano.", img: "animada2.png" },
-    { name: "Camisa de Manga Corta Infantil", desc: "Ligera y cómoda para tu bebé.", img: "camisas-infantiles.png" },
-    { name: "Camisas de Manga Corta", desc: "Ligeras y cómodas para tus actividades.", colors: ["ffffff", "#010000", "#cd0e0e", "#0104c6"], img: "camisas-formales.png" },
-    { name: "Camisetas", desc: "Para climas frescos y elegantes.", colors: ["ffffff", "#010000", "#cd0e0e", "#0104c6", "d66025"], img: "camiseta.png" },
-    { name: "Camisas Sports de Cuello", desc: "Ligera y cómoda para el verano.", colors: ["ffffff", "#070660", "#cf2222", "#e57998"], img: "formal4.png" },
-    { name: "Camisa Sport", desc: "Ligera y cómoda para tus actividades.", img: "sport.png" },
-    { name: "Camisa Casual", desc: "Perfecta para uso diario y trabajo.", colors:["#ffffff", "#cf2222"], img: "sport3.png" },
-    { name: "Top", desc: "Perfectos para uso diario.", colors:["#000000", "#cf2222", "#a98986"], img: "top2.png" },
-    { name: "Crop Top", desc: "Ideal para eventos especiales.", img: "top3.png"},
-    { name: "Top Casual", desc: "Perfecto para uso diario.", img: "top5.png" }
+    { name: "Camisas Pyscho Bunny", desc: "Perfecta para uso diario y trabajo.", colors: ["ffffff", "#010000", "#cd0e0e", "#0104c6"], desc: "Precio: C$380", img: "camisas-sports.png" },
+    { name: "Camisas Sport Pyscho Bunny", desc: "Ideal para ocasiones formales.", colors: ["ffffff", "#010000", "#cd0e0e", "#0104c6", "#e276ae"], desc: "Precio: C$520", img: "camisas-formales.png" },
+    { name: "Camisa de Manga Corta Animada", desc: "Ligera y cómoda para el verano.", desc: "Precio: C$500", img: "animada.png" },
+    { name: "Camisa de Manga Corta Animada", desc: "Ligera y cómoda para el verano.", desc: "Precio: C$500", img: "animada2.png" },
+    { name: "Camisa de Manga Corta Infantil", desc: "Ligera y cómoda para tu bebé.", desc: "Precio: C$150", img: "camisas-infantiles.png" },
+    { name: "Camisa Sport Jhonny Cotton", desc: "Ligeras y cómodas para tus actividades.", colors: ["ffffff", "#010000", "#cd0e0e", "#0104c6"], desc: "Precio: C$550", img: "jonny-camisasport.png" },
+    { name: "Camisetas Vineyard Vines", desc: "Para climas frescos y elegantes.", colors: ["ffffff", "#010000", "#cd0e0e", "#0104c6", " #d05749"], desc: "Precio: C$380", img: "camiseta.png" },
+    //{ name: "Camisas Sports de Cuello", desc: "Ligera y cómoda para el verano.", colors: ["ffffff", "#070660", "#cf2222", "#e57998"], img: "formal4.png" },
+   // { name: "Camisa Sport", desc: "Ligera y cómoda para tus actividades.", img: "sport.png" },
+    //{ name: "Camisa Casual", desc: "Perfecta para uso diario y trabajo.", colors:["#ffffff", "#cf2222"], img: "sport3.png" },
+    { name: "Crop Top", desc: "Perfectos para uso diario.", colors:["#000000", "#cf2222", "#a98986"], desc: "Precio: C$280", img: "top2.png" },
+    { name: "Crop Top", desc: "Ideal para eventos especiales.", colors: ["#FFFFFF","#000000", "#cf2222"], desc: "Precio: C$280", img: "top3.png"},
+    { name: "Top Casual", desc: "Perfecto para uso diario.", desc: "Precio: C$280", img: "top5.png" }
   ],
   "Ropa Interior": [
-    { name: "Boxer Leopoldo", desc: "Cómodo para usu diario", colors: ["#4f8ee8", "#d74e54", "#050683"], img: "boxer.png" },
-    { name: "Boxer Wear Wolf", desc: "Suave y ligero.", colors: ["#4f8ee8", "##050683", "#000000"], img: "boxer2.png" },
-    { name: "Boxer Calvin Klein", desc: "Diseño fresco.", colors: ["#050683", "#e84f1a"], img: "boxer3.png" },
-    { name: "Boxer Tommy Hilfiger", desc: "Diseño fresco.", colors: ["#050683", "#ffffff", "#d74e54"], img: "boxer4.png" },
-    { name: "Boxer Everfit", desc: "Diseño unico.", colors: ["#fe0a1d", "#050683", "#1c8155"], img: "boxer5.png" },
-    { name: "Boxer Tommy Hilfiger", desc: "Perfecto para uso diario.", colors: ["#050683", "#d74e54", "#1c8155"], img: "boxer6.png" },
-    { name: "Boxer Calvin Klein", desc: "Diseño fresco.", colors: ["#050683", "#d74e54"], img: "boxer7.png" },
-    { name: "Calcetines Nike & Tommy Hilfiger", desc: "Suaves y ligeras.", img: "calcetas.png" }
+    { name: "Boxer Leopoldo", desc: "Cómodo para usu diario", colors: ["#4f8ee8", "#d74e54", "#050683"], desc: "Precio: C$140", img: "boxer.png" },
+    { name: "Boxer Wear Wolf", desc: "Suave y ligero.", colors: ["#4f8ee8", "##050683", "#000000"], desc: "Precio: C$140", img: "boxer2.png" },
+    { name: "Boxer Calvin Klein", desc: "Diseño fresco.", colors: ["#050683", "#e84f1a"], desc: "Precio: C$160", img: "boxer3.png" },
+    { name: "Boxer Tommy Hilfiger", desc: "Diseño fresco.", colors: ["#050683", "#ffffff", "#d74e54"], desc: "Precio: C$160", img: "boxer4.png" },
+    { name: "Boxer Everfit", desc: "Diseño unico.", colors: ["#fe0a1d", "#050683", "#1c8155"], desc: "Precio: C$160", img: "boxer5.png" },
+    { name: "Boxer Tommy Hilfiger", desc: "Perfecto para uso diario.", colors: ["#050683", "#d74e54", "#1c8155"], desc: "Precio: C$160", img: "boxer6.png" },
+    { name: "Boxer Calvin Klein", desc: "Diseño fresco.", colors: ["#050683", "#d74e54"], desc: "Precio: C$160", img: "boxer7.png" },
+    { name: "Calcetines Nike & Tommy Hilfiger", desc: "Suaves y ligeras.", desc: "Precio: C$30 (Par)", img: "calcetas.png" }
   ],
   "Chaquetas & Sueteres": [
-    { name: "Chaqueta Jeans", desc: "Elegante y resistente.", img: "chaqueta.png" },
-    { name: "Chaqueta Jeans", desc: "Protección contra el sol asegurada.", img: "chaqueta2.png" },
-    { name: "Suéter Vineyard Vines", desc: "Comodidad casual.", colors: ["#9b9b9b", "#FFFFFF", "#000000"], img: "sueter2.png" }
+    { name: "Chaqueta Jeans", desc: "Elegante y resistente.", desc: "Precio: C$650", img: "chaqueta.png" },
+    { name: "Chaqueta Jeans", desc: "Protección contra el sol asegurada.", desc: "Precio: C$650", img: "chaqueta2.png" },
+    { name: "Suéter Vineyard Vines", desc: "Comodidad casual.", colors: ["#FFFFFF", "#000000", "#060756", "#d05749", "#890425"], desc: "Precio: C$450", img: "sueter2.png" }
   ],
   "Shorts": [
     { name: "Shorts Casual", desc: "Perfecto para el verano.", colors: [" #968662 ", " #8e9aab", " #15191c "], img: "short2.png" },
-    { name: "Shorts de Playa", desc: "Ideal para la playa y piscina.", img: "short.png" },
-    { name: "Shorts Deportivos", desc: "Para tus actividades deportivas.", colors: [" #a1abb6 ", " #a55c24"], img: "short3.png" },
-    { name: "Shorts Casual", desc: "Perfecto para el verano.", colors: ["rgb(255, 255, 255) ", "rgb(0, 0, 0) "], img: "short4.png" },
-    { name: "Shorts Estampado", desc: "Ideales para una salidita", img: "Shortpablo.png" },
-    { name: "Shorts Estampado", desc: "Ideales para una salidita", img: "Shortcancer.png"},
-    { name: "Shortds Formales Cargo", desc: "Para tu cita", colors: ["#000000", "#0a5b98"], img: "Shorts"}
+    //{ name: "Shorts de Playa", desc: "Ideal para la playa y piscina.", img: "short.png" },
+    { name: "Shorts Veraneros Impermeables Polo", desc: "Para tus actividades deportivas.", colors: [" #a1abb6 ", " #a55c24"], desc: "Precio: C$320", img: "short3.png" },
+    { name: "Shorts Veraneros Impermeables Jhonny Cotton", desc: "Perfecto para el verano.", colors: ["rgb(255, 255, 255) ", "rgb(0, 0, 0) "], desc: "Precio: C$450", img: "short4.png" },
+    { name: "Shorts Estampado", desc: "Ideales para una salidita", desc: "Precio: C$280", img: "Shortpablo.png" },
+    { name: "Shorts Estampado", desc: "Ideales para una salidita", desc: "Precio: C$280", img: "Shortcancer.png"},
+    //{ name: "Shortds Formales Cargo", desc: "Para tu cita", colors: ["#000000", "#0a5b98"], img: "Shorts"}
   ],
   "Accesorios":[
   { name: "Cartera Prada", desc: "Para tu seguridad monetaria", img: "cartera.png"}
+  ],
+  "Body's": [
+    { name: "Body Victoria's Secret", desc: "Ideal para tu dia a dia.", desc: "Precio: C$700", img: "body.jpg" },
+    { name: "Body Victoria's Secret", desc: "Perfecto para el verano.", desc: "Precio: C$700", img: "body2.jpg" }
   ]
 };
 
@@ -109,7 +113,7 @@ function activateCategory(name, element) {
 }
 
 function openWhatsApp(productName) {
-  const phoneNumber = "50588888888"; // Reemplaza con tu número real
+  const phoneNumber = "50557926508"; // Reemplaza con tu número real
   const textMessage = encodeURIComponent(`Hola, estoy interesado en el producto: ${productName}`);
   const url = `https://wa.me/${phoneNumber}?text=${textMessage}`;
   window.open(url, '_blank');
